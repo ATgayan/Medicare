@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone,faEnvelope,faPaperPlane } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faPhone,faEnvelope,faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer() {
     return (
@@ -18,20 +18,20 @@ export default function Footer() {
             <ul>
               <li className="mb-2">
                 <a href="#" className="hover:text-blue-400 flex">
-                <FontAwesomeIcon icon={faPhone} className="text-sm w-5 m-1" />
+                {/* <FontAwesomeIcon icon={faPhone} className="text-sm w-5 m-1" /> */}
                 <span>055-1231235</span> 
                 </a>
               </li>
               <li className="mb-2">
                 <a href="#" className="hover:text-blue-400 flex">
-                <FontAwesomeIcon icon={faEnvelope} className="text-sm w-5 m-1" />
+                {/* <FontAwesomeIcon icon={faEnvelope} className="text-sm w-5 m-1" /> */}
                 <span>  medicare@gmail.com</span>
                 </a>
               </li>
               <li className="mb-2">
                 <a href="#" className="hover:text-blue-400 flex">
                     
-                <FontAwesomeIcon icon={faPaperPlane} className="text-sm w-5 m-1" />
+                {/* <FontAwesomeIcon icon={faPaperPlane} className="text-sm w-5 m-1" /> */}
                <span> Badulla</span>
                 </a>
               </li>
