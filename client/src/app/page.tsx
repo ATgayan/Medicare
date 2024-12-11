@@ -1,11 +1,12 @@
 import Image from "next/image";
-import Navbar from "./pages/navigationbar";
-import Footer from "./pages/footer";
+import Navbar from "./components/navigationbar";
+import Footer from "./components/footer";
+
 
 export default function Home() {
   return (
     <>
-    <Navbar/>
+     <Navbar/>
     <div className="h-96"/>
     <Footer/>
     </>
