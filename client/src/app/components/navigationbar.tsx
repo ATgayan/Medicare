@@ -23,10 +23,8 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a
-                href="#appointment"
-                className="text-gray-700 hover:text-black hover:bg-blue-400 p-2 rounded font-bold"
-              >
+              <a href="pages/appointment"
+                className="text-gray-700 hover:text-black hover:bg-blue-400 p-2 rounded font-bold">
                 Appointment
               </a>
             </li>
